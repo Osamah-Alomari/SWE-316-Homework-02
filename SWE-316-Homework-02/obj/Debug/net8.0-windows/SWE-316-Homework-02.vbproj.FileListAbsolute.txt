@@ -1,0 +1,17 @@
+C:\Users\Osamah\source\repos\SWE-316-Homework-02\SWE-316-Homework-02\bin\Debug\net8.0-windows\SWE-316-Homework-02.exe
+C:\Users\Osamah\source\repos\SWE-316-Homework-02\SWE-316-Homework-02\bin\Debug\net8.0-windows\SWE-316-Homework-02.deps.json
+C:\Users\Osamah\source\repos\SWE-316-Homework-02\SWE-316-Homework-02\bin\Debug\net8.0-windows\SWE-316-Homework-02.runtimeconfig.json
+C:\Users\Osamah\source\repos\SWE-316-Homework-02\SWE-316-Homework-02\bin\Debug\net8.0-windows\SWE-316-Homework-02.dll
+C:\Users\Osamah\source\repos\SWE-316-Homework-02\SWE-316-Homework-02\bin\Debug\net8.0-windows\SWE-316-Homework-02.pdb
+C:\Users\Osamah\source\repos\SWE-316-Homework-02\SWE-316-Homework-02\obj\Debug\net8.0-windows\SWE_316_Homework_02.Form1.resources
+C:\Users\Osamah\source\repos\SWE-316-Homework-02\SWE-316-Homework-02\obj\Debug\net8.0-windows\SWE-316-Homework-02.vbproj.GenerateResource.cache
+C:\Users\Osamah\source\repos\SWE-316-Homework-02\SWE-316-Homework-02\obj\Debug\net8.0-windows\SWE-316-Homework-02.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Osamah\source\repos\SWE-316-Homework-02\SWE-316-Homework-02\obj\Debug\net8.0-windows\SWE-316-Homework-02.AssemblyInfoInputs.cache
+C:\Users\Osamah\source\repos\SWE-316-Homework-02\SWE-316-Homework-02\obj\Debug\net8.0-windows\SWE-316-Homework-02.AssemblyInfo.vb
+C:\Users\Osamah\source\repos\SWE-316-Homework-02\SWE-316-Homework-02\obj\Debug\net8.0-windows\SWE-316-Homework-02.vbproj.CoreCompileInputs.cache
+C:\Users\Osamah\source\repos\SWE-316-Homework-02\SWE-316-Homework-02\obj\Debug\net8.0-windows\SWE-316-Homework-02.sourcelink.json
+C:\Users\Osamah\source\repos\SWE-316-Homework-02\SWE-316-Homework-02\obj\Debug\net8.0-windows\SWE-316-Homework-02.dll
+C:\Users\Osamah\source\repos\SWE-316-Homework-02\SWE-316-Homework-02\obj\Debug\net8.0-windows\refint\SWE-316-Homework-02.dll
+C:\Users\Osamah\source\repos\SWE-316-Homework-02\SWE-316-Homework-02\obj\Debug\net8.0-windows\SWE-316-Homework-02.pdb
+C:\Users\Osamah\source\repos\SWE-316-Homework-02\SWE-316-Homework-02\obj\Debug\net8.0-windows\SWE-316-Homework-02.genruntimeconfig.cache
+C:\Users\Osamah\source\repos\SWE-316-Homework-02\SWE-316-Homework-02\obj\Debug\net8.0-windows\ref\SWE-316-Homework-02.dll

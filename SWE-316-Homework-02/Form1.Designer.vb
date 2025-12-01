@@ -26,12 +26,13 @@ Partial Class Form1
         BarButton = New Button()
         BrowseButton = New Button()
         Panel1 = New Panel()
-        Panel2 = New Panel()
+        FolderBrowserDialog1 = New FolderBrowserDialog()
+        filesListBox = New ListBox()
         SuspendLayout()
         ' 
         ' TreeButton
         ' 
-        TreeButton.Location = New Point(194, 13)
+        TreeButton.Location = New Point(429, 12)
         TreeButton.Name = "TreeButton"
         TreeButton.Size = New Size(94, 29)
         TreeButton.TabIndex = 0
@@ -40,7 +41,7 @@ Partial Class Form1
         ' 
         ' BarButton
         ' 
-        BarButton.Location = New Point(305, 13)
+        BarButton.Location = New Point(540, 12)
         BarButton.Name = "BarButton"
         BarButton.Size = New Size(94, 29)
         BarButton.TabIndex = 1
@@ -49,7 +50,7 @@ Partial Class Form1
         ' 
         ' BrowseButton
         ' 
-        BrowseButton.Location = New Point(68, 409)
+        BrowseButton.Location = New Point(12, 409)
         BrowseButton.Name = "BrowseButton"
         BrowseButton.Size = New Size(94, 29)
         BrowseButton.TabIndex = 2
@@ -58,24 +59,28 @@ Partial Class Form1
         ' 
         ' Panel1
         ' 
-        Panel1.Location = New Point(194, 48)
+        Panel1.Location = New Point(423, 48)
         Panel1.Name = "Panel1"
-        Panel1.Size = New Size(594, 390)
+        Panel1.Size = New Size(365, 390)
         Panel1.TabIndex = 3
         ' 
-        ' Panel2
+        ' FolderBrowserDialog1
         ' 
-        Panel2.Location = New Point(12, 13)
-        Panel2.Name = "Panel2"
-        Panel2.Size = New Size(166, 382)
-        Panel2.TabIndex = 4
+        ' 
+        ' filesListBox
+        ' 
+        filesListBox.FormattingEnabled = True
+        filesListBox.Location = New Point(12, 12)
+        filesListBox.Name = "filesListBox"
+        filesListBox.Size = New Size(405, 384)
+        filesListBox.TabIndex = 0
         ' 
         ' Form1
         ' 
         AutoScaleDimensions = New SizeF(8F, 20F)
         AutoScaleMode = AutoScaleMode.Font
         ClientSize = New Size(800, 450)
-        Controls.Add(Panel2)
+        Controls.Add(filesListBox)
         Controls.Add(Panel1)
         Controls.Add(BrowseButton)
         Controls.Add(BarButton)
@@ -89,6 +94,7 @@ Partial Class Form1
     Friend WithEvents BarButton As Button
     Friend WithEvents BrowseButton As Button
     Friend WithEvents Panel1 As Panel
-    Friend WithEvents Panel2 As Panel
+    Friend WithEvents FolderBrowserDialog1 As FolderBrowserDialog
+    Friend WithEvents filesListBox As ListBox
 
 End Class
