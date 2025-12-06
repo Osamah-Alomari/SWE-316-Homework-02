@@ -3,8 +3,6 @@ Imports System.IO
 Imports System.Windows.Forms.Design
 
 Public Class Reader
-
-
     Public Function ReadDirectory(folderPath As String) As FolderContainer
         ' Get the folder name
         Dim folder = New FolderContainer(Path.GetFileName(folderPath))
@@ -32,10 +30,6 @@ Public Class Reader
 
             folder.Add(newFile)
         Next
-
         Return folder
     End Function
-
-
-
 End Class

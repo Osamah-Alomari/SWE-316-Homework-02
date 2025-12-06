@@ -16,7 +16,7 @@ Imports System.Reflection
 <Assembly: System.Reflection.AssemblyCompanyAttribute("SWE-316-Homework-02"),  _
  Assembly: System.Reflection.AssemblyConfigurationAttribute("Debug"),  _
  Assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0"),  _
- Assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+66e1e5644780e6c9e11b1d78099bf265e461cd4e"),  _
+ Assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+89264203a688a94c5bfef281d01c31b4467701a7"),  _
  Assembly: System.Reflection.AssemblyProductAttribute("SWE-316-Homework-02"),  _
  Assembly: System.Reflection.AssemblyTitleAttribute("SWE-316-Homework-02"),  _
  Assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0"),  _

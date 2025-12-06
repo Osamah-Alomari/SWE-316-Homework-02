@@ -25,14 +25,14 @@ Partial Class Form1
         TreeButton = New Button()
         BarButton = New Button()
         BrowseButton = New Button()
-        Panel1 = New Panel()
+        VisualizationPanel = New Panel()
         FolderBrowserDialog1 = New FolderBrowserDialog()
-        filesListBox = New ListBox()
+        FolderTreeView = New TreeView()
         SuspendLayout()
         ' 
         ' TreeButton
         ' 
-        TreeButton.Location = New Point(429, 12)
+        TreeButton.Location = New Point(173, 12)
         TreeButton.Name = "TreeButton"
         TreeButton.Size = New Size(94, 29)
         TreeButton.TabIndex = 0
@@ -41,7 +41,7 @@ Partial Class Form1
         ' 
         ' BarButton
         ' 
-        BarButton.Location = New Point(540, 12)
+        BarButton.Location = New Point(273, 12)
         BarButton.Name = "BarButton"
         BarButton.Size = New Size(94, 29)
         BarButton.TabIndex = 1
@@ -50,38 +50,34 @@ Partial Class Form1
         ' 
         ' BrowseButton
         ' 
-        BrowseButton.Location = New Point(12, 409)
+        BrowseButton.Location = New Point(73, 409)
         BrowseButton.Name = "BrowseButton"
         BrowseButton.Size = New Size(94, 29)
         BrowseButton.TabIndex = 2
         BrowseButton.Text = "Browse"
         BrowseButton.UseVisualStyleBackColor = True
         ' 
-        ' Panel1
+        ' VisualizationPanel
         ' 
-        Panel1.Location = New Point(423, 48)
-        Panel1.Name = "Panel1"
-        Panel1.Size = New Size(365, 390)
-        Panel1.TabIndex = 3
+        VisualizationPanel.Location = New Point(173, 48)
+        VisualizationPanel.Name = "VisualizationPanel"
+        VisualizationPanel.Size = New Size(615, 390)
+        VisualizationPanel.TabIndex = 3
         ' 
-        ' FolderBrowserDialog1
+        ' FolderTreeView
         ' 
-        ' 
-        ' filesListBox
-        ' 
-        filesListBox.FormattingEnabled = True
-        filesListBox.Location = New Point(12, 12)
-        filesListBox.Name = "filesListBox"
-        filesListBox.Size = New Size(405, 384)
-        filesListBox.TabIndex = 0
+        FolderTreeView.Location = New Point(12, 12)
+        FolderTreeView.Name = "FolderTreeView"
+        FolderTreeView.Size = New Size(155, 391)
+        FolderTreeView.TabIndex = 0
         ' 
         ' Form1
         ' 
         AutoScaleDimensions = New SizeF(8F, 20F)
         AutoScaleMode = AutoScaleMode.Font
         ClientSize = New Size(800, 450)
-        Controls.Add(filesListBox)
-        Controls.Add(Panel1)
+        Controls.Add(FolderTreeView)
+        Controls.Add(VisualizationPanel)
         Controls.Add(BrowseButton)
         Controls.Add(BarButton)
         Controls.Add(TreeButton)
@@ -93,8 +89,8 @@ Partial Class Form1
     Friend WithEvents TreeButton As Button
     Friend WithEvents BarButton As Button
     Friend WithEvents BrowseButton As Button
-    Friend WithEvents Panel1 As Panel
+    Friend WithEvents VisualizationPanel As Panel
     Friend WithEvents FolderBrowserDialog1 As FolderBrowserDialog
-    Friend WithEvents filesListBox As ListBox
+    Friend WithEvents FolderTreeView As TreeView
 
 End Class
